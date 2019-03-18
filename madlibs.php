@@ -17,7 +17,15 @@
 </form>
 <br><br>
 
-<?php ?>
+<?php
+    $color = $_GET["color"];
+    $pluralNoun = $_GET["pluralNoun"];
+    $celebrity = $_GET["celebrity"];
+
+    echo "Roses are $color, <br>";
+    echo "$pluralNoun are blue, <br>";
+    echo "I love $celebrity. <br>";
+?>
 
     
 </body>
