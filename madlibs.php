@@ -15,7 +15,7 @@
 
 <div class="container">
 
-<div class="card">
+<div class="card" id="input">
     <div class="card-body">
         <form action="madlibs.php" method="get">
             Color: <input type="text" name="color"> <br>
@@ -28,7 +28,7 @@
 
 <br><br>
 
-<div class="card">
+<div class="card" id="result">
     <div class="card-body">
         <?php
             if (isset($_GET["color"], $_GET["pluralNoun"], $_GET["celebrity"])) {
