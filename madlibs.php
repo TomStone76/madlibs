@@ -18,13 +18,15 @@
 <br><br>
 
 <?php
-    $color = $_GET["color"];
-    $pluralNoun = $_GET["pluralNoun"];
-    $celebrity = $_GET["celebrity"];
+    if (isset($_GET["color"], $_GET["pluralNoun"], $_GET["celebrity"])) {
+        $color = $_GET["color"];
+        $pluralNoun = $_GET["pluralNoun"];
+        $celebrity = $_GET["celebrity"];
 
-    echo "Roses are $color, <br>";
-    echo "$pluralNoun are blue, <br>";
-    echo "I love $celebrity. <br>";
+        echo "Roses are $color, <br>";
+        echo "$pluralNoun are blue, <br>";
+        echo "I love $celebrity. <br>";
+    }
 ?>
 
     
