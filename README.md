@@ -1,1 +1,1 @@
-# madlibs
+This is a madlibs game written in HTML, CSS, and PHP.
